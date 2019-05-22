@@ -51,7 +51,7 @@ func testQuorumShouldStartGame(t *testing.T) {
 	// create a new game
 	out := make(chan bot.Message)
 	b := fam100Bot{
-		name:  "fam100bot",
+		name:  "kisanak100bot",
 		qnaDB: questionDB,
 	}
 

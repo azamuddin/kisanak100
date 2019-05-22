@@ -129,7 +129,6 @@ olahraga bergengsi?*40:sepak bola *23: pacuan kuda *13: basket *11: tennis * 8: 
 sebutkan tempat yang biasa ditemukan ikan?*29:laut *25: sungai *16: kolam *10: danau * 9: akuarium * 6: pasar * 5: penggorengan*
 Sebutkan benda yang bisa bocor dan menimbulkan masalah?*31:genteng / atap *26: ban *13: kondom * 8: gas * 6: ember * 5: pipa * 4: balon * 3: kantong plastik / kantong *
 binatang yg sering ada dalam legenda tiongkok ?*35:naga *32: ular *23: monyet *10: kerbau *
-pegawai SIP dengan BB di atas 80kg*90:Bhontot*5:taufik danar*3:satwika*2:Sitompul*
 sebutkan prasasti terkenal di indonesia?*29:kebun kopi *28: ciareteun *17: talang tuo *13: muara kaman *10: kedukan bukit * 3: pasir awi*
 nama kota besar di pulau jawa?*46:jakarta *27: yogyakarta *15: semarang *11: bandung * 1: surabaya *
 bahan bakar yang berasal dari alam?*38:bensin *27: solar *18: batu bara *10: minyak tanah * 7: lpg *
@@ -147,5 +146,4 @@ selain pilot apa yang terdapat di pesawat ?*30:pramugari *28: cockpit *16: kamar
 sebutkan jenis tiang?*33:listrik / tiang listrik *26: jemuran / tiang jemuran *23: bendera / tiang bendera *11: lampu / tiang lampu * 7: telepon / tiang telepon *
 apa yang dilakukan jika sedang kesal?*42:marah *27: sabar *19: diam *12: ngamuk / mengamuk *
 hiburan apa yang ada di pesta ulang tahun?*28:badut *26: band *15: sulap *14: kuis *12: game * 5: menyani / nyani*
-pegawai SIP dengan BB di atas 80kg*90:Fachru*5:taufik*3:fadil*2:Uli*
 nama buah berawalan d?*41:delima *37: durian *22: duku *

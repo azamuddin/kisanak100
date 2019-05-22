@@ -186,6 +186,7 @@ type Telegram struct {
 // NewTelegram creates telegram API Client
 //noinspection GoUnusedExportedFunction
 func NewTelegram(ctx context.Context, key string) (*Telegram, error) {
+  fmt.Println("TESTING TELEGRAM")
 	if key == "" {
 		return nil, errors.New("empty key")
 	}
@@ -256,6 +257,7 @@ func (t *Telegram) initPlugins(ctx context.Context) error {
 
 // Start consuming from telegram
 func (t *Telegram) Start(ctx context.Context) error {
+  log(Info, fmt.Printf("Starting bot"))
 	err := t.initPlugins(ctx)
 	if err != nil {
 		return fmt.Errorf("failed to load plugins: %v", err)
@@ -407,6 +409,7 @@ func (t *Telegram) poolOutbox() {
 }
 
 func (t *Telegram) poolInbox() {
+  log(Info, fmt.Printf("POOLING INBOX"))
 	for {
 		select {
 		case <-t.ctx.Done():

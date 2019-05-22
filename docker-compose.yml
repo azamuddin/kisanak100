@@ -7,13 +7,17 @@ services:
 
   fam100:
     build: .
-    command: /fam100 -quorum 3
+    command: /fam100 -quorum 2
     depends_on:
       - redis
     volumes:
       - "./qna:/qna"
     environment:
-      TELEGRAM_KEY: "${TELEGRAM_KEY}"
+      #Kisanak100
+      TELEGRAM_KEY: "664559956:AAEu-OdZJAoIJVINki-7KNd2cOWpvC5aj98"
+      
+      #Sanak100
+      #TELEGRAM_KEY: "708555747:AAGXERJs57scLc2HNpKdz5aCj_hZsCvzdKg"
       QUESTION_DB_PATH: "qna/questions.txt"
       REDIS_ADDR: "redis:6379"
 

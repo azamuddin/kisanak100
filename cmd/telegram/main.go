@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/uber-go/zap"
-	"github.com/yulrizka/bot"
+  "github.com/yulrizka/bot"
 	"github.com/yulrizka/fam100"
 	"github.com/yulrizka/fam100/qna"
 	"github.com/yulrizka/fam100/repo"
@@ -22,7 +22,7 @@ import (
 
 var (
 	log                  zap.Logger
-	minQuorum            = 3 // minimum players to start game
+	minQuorum            = 2 // minimum players to start game
 	graphiteURL          = ""
 	graphiteWebURL       = ""
 	quorumWait           = 120 * time.Second
@@ -64,7 +64,7 @@ func init() {
 
 func main() {
 	flag.StringVar(&adminID, "admin", "", "admin id")
-	flag.IntVar(&minQuorum, "quorum", 3, "minimal channel quorum")
+	flag.IntVar(&minQuorum, "quorum", 2, "minimal channel quorum")
 	flag.StringVar(&graphiteURL, "graphite", "", "graphite url, empty to disable")
 	flag.StringVar(&graphiteWebURL, "graphiteWeb", "", "graphite web url, empty to disable")
 	flag.IntVar(&roundDuration, "roundDuration", 90, "round duration in second")
@@ -80,8 +80,11 @@ func main() {
 
 	go func() {
 		if !profile {
+      log.Info("NO PROFILE")
 			return
 		}
+
+    log.Info("SHOULD NOT RUN")
 		if blockProfileRate > 0 {
 			runtime.SetBlockProfileRate(blockProfileRate)
 			log.Info("runtime.BlockProfile is enabled", zap.Int("rate", blockProfileRate))
@@ -169,12 +172,19 @@ func main() {
 	if err != nil {
 		log.Fatal("Failed AddPlugin", zap.Error(err))
 	}
+  log.Info("TElegram successfully STARTED BRO")
 	initMetrics(plugin)
 
+  log.Info("TElegram successfully STARTED BRO")
 	err = telegram.Start(ctx)
 	if err != nil {
 		log.Fatal("failed to start telegram", zap.Error(err))
+    log.Info("TElegram can't be STARTED BRO")
 	}
+
+
+  log.Info("TElegram successfully STARTED BRO")
+
 
 }
 

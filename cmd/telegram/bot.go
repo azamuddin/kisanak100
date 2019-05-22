@@ -62,6 +62,7 @@ func (b *fam100Bot) Handle(_ context.Context, rawMsg interface{}) (handled bool,
 
 // handleInbox handles incoming message from telegram
 func (b *fam100Bot) handleInbox() {
+  log.Debug("GOT ARBIRARY MESSAGE BRO")
 	for {
 		select {
 		case <-b.quit:

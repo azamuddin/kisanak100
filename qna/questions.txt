@@ -179,8 +179,6 @@ MENGAPA RUMAH SULIT UNTUK DIJUAL*31: Mahal* 25: Lokasi* 20: Angker* 15: Selalu B
 DALAM FILM, SIFAT BAIK APA YANG DIMILIKI JAGOAN*35: Berani*25: Penolong*23: Rendah Hati*17: Ramah*
 KEGIATAN APA YANG DILAKUKAN LUAR RUMAH MASIH PAKAI PIYAMA *30: Belanja* 23: Siram Tanaman* 19: Jemur Baju*13: Ngobrol*8: Olahraga*
 PUJIAN APA YANG DIBERIKAN ORANGTUA SAAT ANAK LELAKINYA TIDAK BERAMBUT GONDRONG LAGI *29: Ganteng* 27: Bersih* 20: Rapi* 14: Macho* 9:Bagus* 4: Keren*
-SEBUTKAN TEMPAT ANGKER DIJAKARTA YANG DIJADIKAN FILM* 28
-: Casablanca* 26: Rumah Pondok Indah* 21: Jeruk Purut* 14: Jembatan Ancol* 7: Rel Bintaro* 4: Stasiun Manggarai*
+SEBUTKAN TEMPAT ANGKER DIJAKARTA YANG DIJADIKAN FILM* 28: Casablanca* 26: Rumah Pondok Indah* 21: Jeruk Purut* 14: Jembatan Ancol* 7: Rel Bintaro* 4: Stasiun Manggarai*
 SEBUTKAN ALASAN KARYAWAN TELAT YANG SUDAH DIDENGAR BOS *23: Macet*21: Kesiangan / telat bangun* 18: Ban Bocor* 16: Banjir* 13: KRL gangguan* 10: Ada Demo / Demo* 6: jalan ditutup* 4: Ada Keperluan*
 SEBUTKAN KENDARAAN YANG TIDAK BOLEH MELALUI JALAN TOL *29: Motor* 23: Sepeda* 18: Bajaj* 11: Becak* 8: Angkot* 3: Delman*
-
